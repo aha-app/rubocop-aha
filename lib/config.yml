@@ -151,5 +151,8 @@ Style/TernaryParentheses:
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
 
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+
 Style/WordArray:
   Enabled: false
