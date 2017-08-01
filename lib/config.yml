@@ -127,6 +127,12 @@ RSpec/VerifiedDoubles:
 Style/ClassCheck:
   Enabled: false
 
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Style/Lambda:
   EnforcedStyle: literal
 
