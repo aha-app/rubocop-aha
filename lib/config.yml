@@ -1,8 +1,4 @@
 require:
- - ./rubocop-aha/cop/layout/multiline_array_symmetrical_brace_layout.rb
- - ./rubocop-aha/cop/layout/multiline_hash_symmetrical_brace_layout.rb
- - ./rubocop-aha/cop/layout/multiline_method_call_symmetrical_brace_layout.rb
- - ./rubocop-aha/cop/layout/multiline_method_definition_symmetrical_brace_layout.rb
  - ./rubocop-aha/cop/performance/empty_gsub_replacement.rb
  - rubocop/rspec/focused
  - rubocop-rspec
@@ -63,31 +59,19 @@ Layout/IndentHash:
   EnforcedStyle: consistent
 
 Layout/MultilineArrayBraceLayout:
-  Enabled: false
-
-Layout/MultilineArraySymmetricalBraceLayout:
-  Enabled: true
+  EnforcedStyle: new_line
 
 Layout/MultilineHashBraceLayout:
-  Enabled: false
-
-Layout/MultilineHashSymmetricalBraceLayout:
-  Enabled: true
+  EnforcedStyle: new_line
 
 Layout/MultilineMethodCallBraceLayout:
-  Enabled: false
-
-Layout/MultilineMethodCallSymmetricalBraceLayout:
-  Enabled: true
+  EnforcedStyle: new_line
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
 Layout/MultilineMethodDefinitionBraceLayout:
-  Enabled: false
-
-Layout/MultilineMethodDefinitionSymmetricalBraceLayout:
-  Enabled: true
+  EnforcedStyle: new_line
 
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
