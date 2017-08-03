@@ -19,20 +19,47 @@ Rails:
 Bundler/OrderedGems:
   Enabled: false
 
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/CaseIndentation:
   EnforcedStyle: end
 
 Layout/ElseAlignment:
   Enabled: false
 
+Layout/EmptyLinesAroundBeginBody:
+  Enabled: false
+
 Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
 Layout/EmptyLinesAroundExceptionHandlingKeywords:
   Enabled: false
 
+Layout/FirstArrayElementLineBreak:
+  Enabled: true
+
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
+Layout/FirstMethodParameterLineBreak:
+  Enabled: true
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
 Layout/IndentHash:
   EnforcedStyle: consistent
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
 
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
