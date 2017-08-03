@@ -1,5 +1,5 @@
 require:
- - ./rubocop-aha/cops/empty_gsub_replacement.rb
+ - ./rubocop-aha/cop/performance/empty_gsub_replacement.rb
  - rubocop/rspec/focused
  - rubocop-rspec
 
@@ -19,20 +19,59 @@ Rails:
 Bundler/OrderedGems:
   Enabled: false
 
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/CaseIndentation:
   EnforcedStyle: end
 
 Layout/ElseAlignment:
   Enabled: false
 
+Layout/EmptyLinesAroundBeginBody:
+  Enabled: false
+
 Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
 Layout/EmptyLinesAroundExceptionHandlingKeywords:
   Enabled: false
 
+Layout/FirstArrayElementLineBreak:
+  Enabled: true
+
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
+Layout/FirstMethodParameterLineBreak:
+  Enabled: true
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
 Layout/IndentHash:
   EnforcedStyle: consistent
+
+Layout/MultilineArrayBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineHashBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineMethodCallBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  EnforcedStyle: new_line
 
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented

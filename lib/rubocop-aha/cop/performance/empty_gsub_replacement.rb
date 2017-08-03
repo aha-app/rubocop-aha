@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 # Copied from https://raw.githubusercontent.com/bbatsov/rubocop/master/lib/rubocop/cop/performance/string_replacement.rb
 # Becker: Removed tr replacement
 
