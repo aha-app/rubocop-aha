@@ -145,6 +145,9 @@ RSpec/EmptyLineAfterSubject:
 RSpec/ExampleLength:
   Enabled: false
 
+RSpec/NestedGroups:
+  Max: 4
+
 RSpec/Focused:
   Enabled: true
 
