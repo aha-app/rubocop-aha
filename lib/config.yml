@@ -145,11 +145,11 @@ RSpec/EmptyLineAfterSubject:
 RSpec/ExampleLength:
   Enabled: false
 
-RSpec/NestedGroups:
-  Max: 4
-
 RSpec/Focused:
   Enabled: true
+
+RSpec/LeadingSubject:
+  Enabled: false
 
 RSpec/MessageSpies:
   Enabled: false
@@ -157,8 +157,14 @@ RSpec/MessageSpies:
 RSpec/MultipleExpectations:
   Enabled: false
 
+RSpec/NestedGroups:
+  Enabled: false
+
 RSpec/NotToNot:
   EnforcedStyle: to_not
+
+RSpec/ScatteredLet:
+  Enabled: false
 
 RSpec/ScatteredSetup:
   Enabled: false
@@ -182,6 +188,9 @@ Style/MultilineBlockChain:
   Enabled: false
 
 Style/NumericPredicate:
+  Enabled: false
+
+Style/RegexpLiteral:
   Enabled: false
 
 Style/StringLiterals:
