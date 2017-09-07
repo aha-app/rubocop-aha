@@ -1,5 +1,5 @@
 require:
- - ./rubocop-aha/cop/performance/empty_gsub_replacement.rb
+ - rubocop-aha/cop/performance/empty_gsub_replacement.rb
  - rubocop/rspec/focused
  - rubocop-rspec
 
