@@ -210,3 +210,6 @@ Style/TrailingCommaInLiteral:
 
 Style/WordArray:
   Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
