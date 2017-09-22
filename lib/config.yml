@@ -76,6 +76,9 @@ Layout/MultilineMethodDefinitionBraceLayout:
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
+Layout/TrailingWhitespace:
+  Enabled: false
+
 Lint/BlockAlignment:
   EnforcedStyleAlignWith: start_of_block
   
@@ -172,10 +175,16 @@ RSpec/ScatteredSetup:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
 Style/ClassCheck:
   Enabled: false
 
 Style/Documentation:
+  Enabled: false
+
+Style/EachWithObject:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
@@ -209,7 +218,4 @@ Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: comma
 
 Style/WordArray:
-  Enabled: false
-
-Style/EachWithObject:
   Enabled: false
