@@ -166,6 +166,9 @@ RSpec/NestedGroups:
 RSpec/NotToNot:
   EnforcedStyle: to_not
 
+RSpec/PredicateMatcher:
+  Enabled: false
+
 RSpec/ScatteredLet:
   Enabled: false
 
