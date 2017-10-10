@@ -19,6 +19,9 @@ Rails:
 Bundler/OrderedGems:
   Enabled: false
 
+Capybara/FeatureMethods:
+  Enabled: false
+
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
