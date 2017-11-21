@@ -79,6 +79,9 @@ Layout/MultilineMethodDefinitionBraceLayout:
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
 Layout/TrailingWhitespace:
   Enabled: false
 
