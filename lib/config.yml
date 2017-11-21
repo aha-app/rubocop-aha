@@ -64,6 +64,9 @@ Layout/IndentHash:
 Layout/MultilineArrayBraceLayout:
   EnforcedStyle: new_line
 
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+
 Layout/MultilineHashBraceLayout:
   EnforcedStyle: new_line
 
