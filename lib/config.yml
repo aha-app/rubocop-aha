@@ -205,6 +205,9 @@ Style/Lambda:
 Style/MultilineBlockChain:
   Enabled: false
 
+Style/Next:
+  Enabled: false
+
 Style/NumericPredicate:
   Enabled: false
 
