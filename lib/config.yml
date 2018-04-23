@@ -237,3 +237,6 @@ Style/TrailingCommaInHashLiteral:
 
 Style/WordArray:
   Enabled: false
+
+Performance/Casecmp:
+  Enabled: false
