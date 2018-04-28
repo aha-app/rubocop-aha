@@ -77,7 +77,7 @@ module RuboCop
 
         def accept_second_param?(second_param)
           second_source, = *second_param
-          second_source.length > 1
+          second_source.length >= 1
         end
 
         def accept_first_param?(first_param)
