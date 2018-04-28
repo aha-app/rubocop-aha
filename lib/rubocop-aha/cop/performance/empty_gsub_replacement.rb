@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # Copied from https://raw.githubusercontent.com/bbatsov/rubocop/master/lib/rubocop/cop/performance/string_replacement.rb
 # Becker: Removed tr replacement
 
@@ -8,18 +9,20 @@ module RuboCop
       # `delete`.
       #
       # @example
-      #   @bad
+      #   # bad
       #   'abc'.gsub('b', 'd')
       #   'abc'.gsub('a', '')
       #   'abc'.gsub(/a/, 'd')
       #   'abc'.gsub!('a', 'd')
       #
-      #   @good
+      #   # good
       #   'abc'.gsub(/.*/, 'a')
       #   'abc'.gsub(/a+/, 'd')
       #   'a b c'.delete(' ')
       class EmptyGsubReplacement < Cop
-        MSG = 'Use `%s` instead of `%s`.'.freeze
+        include RangeHelp
+
+        MSG = 'Use `%<prefer>s` instead of `%<current>s`.'.freeze
         DETERMINISTIC_REGEX = /\A(?:#{LITERAL_REGEX})+\Z/
         DELETE = 'delete'.freeze
         BANG = '!'.freeze
@@ -27,7 +30,7 @@ module RuboCop
 
         def_node_matcher :string_replacement?, <<-PATTERN
           (send _ {:gsub :gsub!}
-                    ${regexp str (send (const nil :Regexp) {:new :compile} _)}
+                    ${regexp str (send (const nil? :Regexp) {:new :compile} _)}
                     $str)
         PATTERN
 
@@ -35,7 +38,7 @@ module RuboCop
           string_replacement?(node) do |first_param, second_param|
             return if accept_second_param?(second_param)
             return if accept_first_param?(first_param)
-            
+
             offense(node, first_param, second_param)
           end
         end
@@ -74,7 +77,7 @@ module RuboCop
 
         def accept_second_param?(second_param)
           second_source, = *second_param
-          second_source.length >= 1
+          second_source.length > 1
         end
 
         def accept_first_param?(first_param)
@@ -100,7 +103,7 @@ module RuboCop
           second_source, = *second_param
           message = message(node, first_source, second_source)
 
-          add_offense(node, range(node), message)
+          add_offense(node, location: range(node), message: message)
         end
 
         def first_source(first_param)
@@ -141,15 +144,14 @@ module RuboCop
                           DELETE
                         end
 
-          add_bang = node.method_name.to_s.end_with?('!')
-          "#{replacement}#{BANG if add_bang}"
+          "#{replacement}#{BANG if node.bang_method?}"
         end
 
         def message(node, first_source, second_source)
           replacement_method =
             replacement_method(node, first_source, second_source)
 
-          format(MSG, replacement_method, node.method_name)
+          format(MSG, prefer: replacement_method, current: node.method_name)
         end
 
         def method_suffix(node)
