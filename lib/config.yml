@@ -154,6 +154,9 @@ RSpec/EmptyLineAfterSubject:
 RSpec/ExampleLength:
   Enabled: false
 
+RSpec/ExpectInHook:
+  Enabled: false
+
 RSpec/Focused:
   Enabled: true
 
