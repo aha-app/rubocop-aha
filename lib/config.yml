@@ -148,6 +148,9 @@ Rails/SkipsModelValidations:
 RSpec/BeEql:
   Enabled: false
 
+RSpec/ContextWording:
+  Enabled: false
+
 RSpec/EmptyLineAfterSubject:
   Enabled: false
 
