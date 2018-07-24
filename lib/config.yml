@@ -252,3 +252,6 @@ Performance/Casecmp:
 
 Style/SymbolArray:
   Enabled: false
+
+Style/AndOr:
+  EnforcedStyle: conditionals
