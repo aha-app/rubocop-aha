@@ -253,5 +253,8 @@ Performance/Casecmp:
 Style/SymbolArray:
   Enabled: false
 
+Lint/AssignmentInCondition:
+  Enabled: false
+
 Style/AndOr:
   EnforcedStyle: conditionals
