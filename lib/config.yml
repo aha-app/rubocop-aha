@@ -255,3 +255,6 @@ Style/SymbolArray:
 
 Style/AndOr:
   EnforcedStyle: conditionals
+
+Style/GuardClause:
+  Enabled: false
