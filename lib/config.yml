@@ -247,6 +247,9 @@ Style/TrailingCommaInArrayLiteral:
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
+Style/VariableNumber:
+  Enabled: false
+
 Style/WordArray:
   Enabled: false
 
