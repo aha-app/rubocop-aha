@@ -127,6 +127,9 @@ Metrics/ModuleLength:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+Naming/VariableNumber:
+  Enabled: false
+
 Performance/EmptyGsubReplacement:
   Enabled: true
 
@@ -243,9 +246,6 @@ Style/TrailingCommaInArrayLiteral:
 
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
-
-Style/VariableNumber:
-  Enabled: false
 
 Style/WordArray:
   Enabled: false
