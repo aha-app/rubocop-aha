@@ -196,6 +196,9 @@ RSpec/ScatteredSetup:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+Style/BlockDelimiters:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
   EnforcedStyle: compact
 
