@@ -197,7 +197,7 @@ RSpec/VerifiedDoubles:
   Enabled: false
 
 Style/ClassAndModuleChildren:
-  EnforcedStyle: compact
+  Enabled: false
 
 Style/ClassCheck:
   Enabled: false
