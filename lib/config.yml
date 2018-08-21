@@ -157,6 +157,9 @@ RSpec/BeEql:
 RSpec/ContextWording:
   Enabled: false
 
+RSpec/DescribedClass:
+  Enabled: false
+
 RSpec/EmptyLineAfterSubject:
   Enabled: false
 
