@@ -1,7 +1,7 @@
+---
 require:
- - rubocop-aha/cop/performance/empty_gsub_replacement.rb
- - rubocop/rspec/focused
- - rubocop-rspec
+  - rubocop/rspec/focused
+  - rubocop-rspec
 
 AllCops:
   Exclude:
@@ -132,9 +132,6 @@ Metrics/PerceivedComplexity:
 
 Naming/VariableNumber:
   Enabled: false
-
-Performance/EmptyGsubReplacement:
-  Enabled: true
 
 Performance/StringReplacement:
   Enabled: false
