@@ -251,7 +251,7 @@ Style/TernaryParentheses:
   Enabled: false
   
 Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: comma
+  EnforcedStyleForMultiline: nocomma
 
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
