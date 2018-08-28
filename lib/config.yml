@@ -130,6 +130,9 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+Naming/PredicateName:
+  Enabled: false
+
 Naming/VariableNumber:
   Enabled: false
 
