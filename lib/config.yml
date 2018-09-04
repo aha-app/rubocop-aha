@@ -134,7 +134,7 @@ Naming/VariableNumber:
   Enabled: false
 
 Performance/StringReplacement:
-  Enabled: false
+  Enabled: true
 
 Performance/TimesMap:
   Enabled: false
