@@ -241,6 +241,9 @@ Style/ParallelAssignment:
 Style/RegexpLiteral:
   Enabled: false
 
+Style/RescueStandardError:
+  EnforcedStyle: implicit
+
 Style/StringLiterals:
   Enabled: false
 
