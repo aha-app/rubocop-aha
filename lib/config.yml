@@ -276,3 +276,10 @@ Style/AndOr:
 
 Style/GuardClause:
   Enabled: false
+
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - development
+    - test
+    - staging
