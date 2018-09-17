@@ -49,6 +49,9 @@ Layout/EmptyLinesAroundClassBody:
 Layout/EmptyLinesAroundExceptionHandlingKeywords:
   Enabled: false
 
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
