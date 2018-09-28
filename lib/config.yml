@@ -256,6 +256,9 @@ Style/SymbolProc:
 Style/TernaryParentheses:
   Enabled: false
   
+Style/TrailingCommaInArguments:
+  Enabled: false
+
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
 
