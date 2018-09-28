@@ -279,3 +279,6 @@ Style/AndOr:
 
 Style/GuardClause:
   Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
