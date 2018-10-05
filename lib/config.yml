@@ -163,6 +163,9 @@ RSpec/ContextWording:
 RSpec/DescribeClass:
   Enabled: false
 
+RSpec/DescribedClass:
+  Enabled: false
+
 RSpec/EmptyLineAfterSubject:
   Enabled: false
 
