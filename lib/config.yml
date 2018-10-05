@@ -160,7 +160,7 @@ RSpec/BeEql:
 RSpec/ContextWording:
   Enabled: false
 
-RSpec/DescribedClass:
+RSpec/DescribeClass:
   Enabled: false
 
 RSpec/EmptyLineAfterSubject:
