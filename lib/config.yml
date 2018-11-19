@@ -136,7 +136,7 @@ Metrics/PerceivedComplexity:
 Naming/UncommunicativeBlockParamName:
   AllowedNames: _
 
-Naming/UncommunicativeMethodParamNam:
+Naming/UncommunicativeMethodParamName:
   AllowedNames: io, id, to, by, on, in, at, _
 
 Naming/PredicateName:
