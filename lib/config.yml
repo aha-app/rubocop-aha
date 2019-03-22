@@ -229,6 +229,9 @@ Style/EachWithObject:
 Style/EmptyMethod:
   Enabled: false
 
+Style/FormatStringToken:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
 
