@@ -135,6 +135,7 @@ Metrics/PerceivedComplexity:
 
 Naming/UncommunicativeMethodParamName:
   MinNameLength: 2
+  AllowedNames: _
 
 Naming/PredicateName:
   Enabled: false
