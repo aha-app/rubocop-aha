@@ -133,11 +133,8 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
-Naming/UncommunicativeBlockParamName:
-  AllowedNames: _
-
 Naming/UncommunicativeMethodParamName:
-  AllowedNames: io, id, to, by, on, in, at, _
+  MinNameLength: 2
 
 Naming/PredicateName:
   Enabled: false
