@@ -184,6 +184,9 @@ RSpec/ExpectInHook:
 RSpec/Focused:
   Enabled: true
 
+RSpec/ImplicitSubject:
+  EnforcedStyle: single_line_only
+
 RSpec/LeadingSubject:
   Enabled: false
 
