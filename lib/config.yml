@@ -215,6 +215,9 @@ RSpec/VerifiedDoubles:
 Style/BlockDelimiters:
   Enabled: false
 
+Style/BracesAroundHashParameters:
+  EnforcedStyle: context_dependent
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
