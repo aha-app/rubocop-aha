@@ -183,7 +183,7 @@ RSpec/Focused:
   Enabled: true
 
 RSpec/ImplicitSubject:
-  EnforcedStyle: single_line_only
+  Enabled: false
 
 RSpec/LeadingSubject:
   Enabled: false
