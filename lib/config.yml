@@ -22,6 +22,9 @@ Bundler/OrderedGems:
 Capybara/FeatureMethods:
   Enabled: false
 
+Layout/AlignArguments:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
