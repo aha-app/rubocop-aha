@@ -170,6 +170,9 @@ RSpec/EmptyLineAfterSubject:
 RSpec/ExampleLength:
   Enabled: false
 
+RSpec/ExampleWording:
+  Enabled: false
+
 RSpec/ExpectInHook:
   Enabled: false
 
