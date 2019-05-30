@@ -146,7 +146,7 @@ Naming/PredicateName:
 Naming/VariableNumber:
   Enabled: false
 
-Name/RescuedExceptionsVariableName:
+Naming/RescuedExceptionsVariableName:
   Enabled: false
 
 Rails/HttpPositionalArguments:
