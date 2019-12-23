@@ -149,8 +149,18 @@ Naming/VariableNumber:
 Naming/RescuedExceptionsVariableName:
   Enabled: false
 
+# Allow ad-hoc test models to use bare ActiveRecord::Base
+Rails/ApplicationRecord:
+  Exclude:
+    - "spec/**/*.rb"
+
 Rails/HttpPositionalArguments:
   Enabled: false
+
+# Allow ad-hoc test models to be referenced by class instance
+Rails/ReflectionClassName:
+  Exclude:
+    - "spec/**/*.rb"
 
 Rails/RequestReferer:
   EnforcedStyle: referrer
