@@ -302,3 +302,6 @@ Style/AndOr:
 
 Style/GuardClause:
   Enabled: false
+
+Style/StringLiteralsInInterpolation:
+  Enabled: false
