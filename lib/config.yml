@@ -323,3 +323,6 @@ Style/HashTransformKeys:
 
 Style/HashTransformValues:
   Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
