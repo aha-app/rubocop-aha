@@ -10,7 +10,7 @@ AllCops:
     - db/**/*
     - tmp/**/*
     - vendor/**/*
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.5
   DisplayCopNames: true
 
 Rails:
@@ -100,6 +100,9 @@ Layout/SpaceInLambdaLiteral:
 Layout/TrailingWhitespace:
   Enabled: false
 
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
 Lint/InheritException:
   EnforcedStyle: standard_error
 
@@ -108,6 +111,12 @@ Lint/UnusedBlockArgument:
 
 Lint/UnusedMethodArgument:
   Enabled: false
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
 
 Metrics/AbcSize: 
   Enabled: false 
@@ -136,7 +145,7 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   MinNameLength: 2
   AllowedNames: _
 
@@ -304,4 +313,13 @@ Style/GuardClause:
   Enabled: false
 
 Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
   Enabled: false
