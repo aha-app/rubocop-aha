@@ -118,8 +118,8 @@ Lint/RaiseException:
 Lint/StructNewOverride:
   Enabled: true
 
-Metrics/AbcSize: 
-  Enabled: false 
+Metrics/AbcSize:
+  Enabled: false
 
 Metrics/BlockLength:
   Enabled: false
@@ -175,6 +175,9 @@ Rails/RequestReferer:
   EnforcedStyle: referrer
 
 Rails/SkipsModelValidations:
+  Enabled: false
+
+Rails/HelperInstanceVariable:
   Enabled: false
 
 RSpec/BeEql:
@@ -278,7 +281,7 @@ Style/NumericPredicate:
 
 Style/ParallelAssignment:
   Enabled: false
-  
+
 Style/RegexpLiteral:
   Enabled: false
 
@@ -290,7 +293,7 @@ Style/SymbolProc:
 
 Style/TernaryParentheses:
   Enabled: false
-  
+
 Style/TrailingCommaInArguments:
   Enabled: false
 
