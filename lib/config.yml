@@ -2,6 +2,7 @@
 require:
   - rubocop/rspec/focused
   - rubocop-rspec
+  - rubocop-rails
 
 AllCops:
   Exclude:
