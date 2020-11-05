@@ -338,3 +338,6 @@ Style/MethodMissingSuper:
 
 Style/NegatedIf:
   Enabled: false
+
+Style/FloatDivision:
+  Enabled: false
