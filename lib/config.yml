@@ -335,3 +335,6 @@ Style/HashEachMethods:
 
 Style/MethodMissingSuper:
   Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
