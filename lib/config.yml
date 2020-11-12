@@ -257,7 +257,7 @@ Style/EachWithObject:
 
 Style/EmptyMethod:
   Enabled: false
-  
+
 Style/FormatStringToken:
   Enabled: false
 
@@ -340,4 +340,7 @@ Style/NegatedIf:
   Enabled: false
 
 Style/FloatDivision:
+  Enabled: false
+
+Rails/Delegate:
   Enabled: false
