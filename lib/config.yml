@@ -344,3 +344,6 @@ Style/FloatDivision:
 
 Rails/Delegate:
   Enabled: false
+
+Lint/AssignmentInCondition:
+  Enabled: false
