@@ -145,6 +145,9 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+Naming/AccessorMethodName:
+  Enabled: false
+
 Naming/MethodParameterName:
   MinNameLength: 2
   AllowedNames: _
