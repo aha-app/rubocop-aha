@@ -252,6 +252,9 @@ Style/ClassAndModuleChildren:
 Style/ClassCheck:
   Enabled: false
 
+Style/CommentAnnotation:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
