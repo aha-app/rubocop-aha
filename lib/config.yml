@@ -339,6 +339,9 @@ Style/HashTransformValues:
 Style/HashEachMethods:
   Enabled: true
 
+Layout/MultilineHashBraceLayout:
+  Enabled: false
+
 Style/MethodMissingSuper:
   Enabled: false
 
