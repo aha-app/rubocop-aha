@@ -350,3 +350,7 @@ Style/FloatDivision:
 
 Rails/Delegate:
   Enabled: false
+
+# disable until we're on 2.6 at the least
+Style/SlicingWithRange:
+  Enabled: false
