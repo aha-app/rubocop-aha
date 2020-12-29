@@ -351,9 +351,6 @@ Style/FloatDivision:
 Rails/Delegate:
   Enabled: false
 
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: true
-
 # disable until we're on 2.6 at the least
 Style/SlicingWithRange:
   Enabled: false
