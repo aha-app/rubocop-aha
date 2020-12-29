@@ -76,6 +76,9 @@ Layout/FirstArrayElementIndentation:
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
+Layout/LineLength:
+  Enabled: false
+
 Layout/MultilineArrayBraceLayout:
   Enabled: false
 
@@ -103,6 +106,9 @@ Layout/TrailingWhitespace:
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 
+Lint/MethodMissingSuper:
+  Enabled: false
+
 Lint/InheritException:
   EnforcedStyle: standard_error
 
@@ -128,9 +134,6 @@ Metrics/ClassLength:
   Enabled: false
 
 Metrics/CyclomaticComplexity:
-  Enabled: false
-
-Layout/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
@@ -299,9 +302,6 @@ Style/IfUnlessModifier:
 
 Style/Lambda:
   EnforcedStyle: literal
-
-Style/MethodMissingSuper:
-  Enabled: false
 
 Style/MultilineBlockChain:
   Enabled: false
