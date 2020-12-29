@@ -348,6 +348,9 @@ Style/NegatedIf:
 Style/FloatDivision:
   Enabled: false
 
+Layout/MultilineArrayBraceLayout:
+  Enabled: false
+
 Rails/Delegate:
   Enabled: false
 
