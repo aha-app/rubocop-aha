@@ -76,6 +76,12 @@ Layout/FirstArrayElementIndentation:
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
+Layout/MultilineArrayBraceLayout:
+  Enabled: false
+
+Layout/MultilineHashBraceLayout:
+  Enabled: false
+
 Layout/MultilineMethodCallBraceLayout:
   EnforcedStyle: new_line
 
@@ -160,6 +166,9 @@ Rails/ApplicationRecord:
   Exclude:
     - "spec/**/*.rb"
 
+Rails/Delegate:
+  Enabled: false
+
 Rails/HttpPositionalArguments:
   Enabled: false
 
@@ -237,6 +246,9 @@ RSpec/ScatteredSetup:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+Style/AndOr:
+  EnforcedStyle: conditionals
+
 Style/BlockDelimiters:
   Enabled: false
 
@@ -258,10 +270,28 @@ Style/EachWithObject:
 Style/EmptyMethod:
   Enabled: false
 
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/FloatDivision:
+  Enabled: false
+
 Style/FormatStringToken:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
   Enabled: false
 
 Style/IfUnlessModifier:
@@ -270,7 +300,13 @@ Style/IfUnlessModifier:
 Style/Lambda:
   EnforcedStyle: literal
 
+Style/MethodMissingSuper:
+  Enabled: false
+
 Style/MultilineBlockChain:
+  Enabled: false
+
+Style/NegatedIf:
   Enabled: false
 
 Style/Next:
@@ -288,7 +324,17 @@ Style/ParallelAssignment:
 Style/RegexpLiteral:
   Enabled: false
 
+# disable until we're on 2.6 at the least
+Style/SlicingWithRange:
+  Enabled: false
+
 Style/StringLiterals:
+  Enabled: false
+
+Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/SymbolArray:
   Enabled: false
 
 Style/SymbolProc:
@@ -307,50 +353,4 @@ Style/TrailingCommaInHashLiteral:
   Enabled: false
 
 Style/WordArray:
-  Enabled: false
-
-Style/SymbolArray:
-  Enabled: false
-
-Style/AndOr:
-  EnforcedStyle: conditionals
-
-Style/GuardClause:
-  Enabled: false
-
-Style/StringLiteralsInInterpolation:
-  Enabled: false
-
-Style/ExponentialNotation:
-  Enabled: true
-
-Style/HashTransformKeys:
-  Enabled: false
-
-Style/HashTransformValues:
-  Enabled: false
-
-Style/HashEachMethods:
-  Enabled: true
-
-Layout/MultilineHashBraceLayout:
-  Enabled: false
-
-Style/MethodMissingSuper:
-  Enabled: false
-
-Style/NegatedIf:
-  Enabled: false
-
-Style/FloatDivision:
-  Enabled: false
-
-Layout/MultilineArrayBraceLayout:
-  Enabled: false
-
-Rails/Delegate:
-  Enabled: false
-
-# disable until we're on 2.6 at the least
-Style/SlicingWithRange:
   Enabled: false
