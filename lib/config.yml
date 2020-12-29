@@ -76,12 +76,6 @@ Layout/FirstArrayElementIndentation:
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
-Layout/MultilineArrayBraceLayout:
-  EnforcedStyle: new_line
-
-Layout/MultilineHashBraceLayout:
-  EnforcedStyle: new_line
-
 Layout/MultilineMethodCallBraceLayout:
   EnforcedStyle: new_line
 
