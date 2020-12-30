@@ -300,7 +300,7 @@ Style/IfUnlessModifier:
 Style/Lambda:
   EnforcedStyle: literal
 
-Style/MethodMissingSuper:
+Style/MissingSuper:
   Enabled: false
 
 Style/MultilineBlockChain:
