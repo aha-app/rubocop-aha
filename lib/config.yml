@@ -106,7 +106,7 @@ Layout/TrailingWhitespace:
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 
-Lint/MethodMissingSuper:
+Lint/MissingSuper:
   Enabled: false
 
 Lint/InheritException:
