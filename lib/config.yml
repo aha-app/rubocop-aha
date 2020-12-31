@@ -121,6 +121,9 @@ Lint/UnusedMethodArgument:
 Lint/RaiseException:
   Enabled: true
 
+Lint/RedundantSplatExpansion:
+  Enabled: false
+
 Lint/StructNewOverride:
   Enabled: true
 
@@ -167,7 +170,7 @@ Naming/RescuedExceptionsVariableName:
 # Allow ad-hoc test models to use bare ActiveRecord::Base
 Rails/ApplicationRecord:
   Exclude:
-    - "spec/**/*.rb"
+    - 'spec/**/*.rb'
 
 Rails/Delegate:
   Enabled: false
@@ -178,7 +181,7 @@ Rails/HttpPositionalArguments:
 # Allow ad-hoc test models to be referenced by class instance
 Rails/ReflectionClassName:
   Exclude:
-    - "spec/**/*.rb"
+    - 'spec/**/*.rb'
 
 Rails/RequestReferer:
   EnforcedStyle: referrer
