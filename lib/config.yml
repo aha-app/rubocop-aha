@@ -121,6 +121,9 @@ Lint/UnusedMethodArgument:
 Lint/RaiseException:
   Enabled: true
 
+Lint/RedundantSafeNavigation:
+  Enabled: false
+
 Lint/StructNewOverride:
   Enabled: true
 
