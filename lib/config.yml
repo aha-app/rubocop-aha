@@ -279,6 +279,9 @@ Style/EachWithObject:
 Style/EmptyMethod:
   Enabled: false
 
+Style/ExplicitBlockArgument:
+  Enabled: false
+
 Style/ExponentialNotation:
   Enabled: true
 
