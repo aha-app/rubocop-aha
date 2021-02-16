@@ -327,8 +327,14 @@ Style/ParallelAssignment:
 Style/RegexpLiteral:
   Enabled: false
 
+Style/SingleArgumentDig:
+  Enabled: false
+
 # disable until we're on 2.6 at the least
 Style/SlicingWithRange:
+  Enabled: false
+
+Style/StringConcatenation:
   Enabled: false
 
 Style/StringLiterals:
