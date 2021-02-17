@@ -173,7 +173,7 @@ Rails/Delegate:
   Enabled: false
 
 Rails/FilePath:
-  EnforcedStyle: arguments
+  Enabled: false
   
 Rails/HttpPositionalArguments:
   Enabled: false
