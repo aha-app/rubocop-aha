@@ -20,9 +20,6 @@ Rails:
 Bundler/OrderedGems:
   Enabled: false
 
-Capybara/FeatureMethods:
-  Enabled: false
-
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 
@@ -220,7 +217,10 @@ RSpec/ExampleWording:
 RSpec/ExpectInHook:
   Enabled: false
 
-RSpec/Focused:
+Rspec/FeatureMethods:
+  Enabled: false
+
+RSpec/Focus:
   Enabled: true
 
 RSpec/ImplicitSubject:
