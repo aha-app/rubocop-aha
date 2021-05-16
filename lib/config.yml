@@ -83,9 +83,6 @@ Layout/MultilineArrayBraceLayout:
 Layout/MultilineHashBraceLayout:
   Enabled: false
 
-Layout/MultilineMethodCallBraceLayout:
-  EnforcedStyle: new_line
-
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
