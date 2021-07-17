@@ -179,6 +179,10 @@ Rails/FilePath:
 Rails/HttpPositionalArguments:
   Enabled: false
 
+# Allow defining tasks that don't depend on loading the Rails app
+Rails/RakeEnvironment:
+  Enabled: false
+
 # Allow ad-hoc test models to be referenced by class instance
 Rails/ReflectionClassName:
   Exclude:
