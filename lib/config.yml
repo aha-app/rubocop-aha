@@ -221,7 +221,7 @@ RSpec/ExampleWording:
 RSpec/ExpectInHook:
   Enabled: false
 
-Rspec/FeatureMethods:
+RSpec/FeatureMethods:
   Enabled: false
 
 RSpec/Focus:
