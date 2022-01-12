@@ -3,7 +3,6 @@ require:
   - rubocop-rspec
   - rubocop-rails
 
-
 AllCops:
   Exclude:
     - bin/**/*
@@ -11,7 +10,7 @@ AllCops:
     - db/**/*
     - tmp/**/*
     - vendor/**/*
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 3.0
   DisplayCopNames: true
 
 Rails:
@@ -175,7 +174,7 @@ Rails/Delegate:
 
 Rails/FilePath:
   Enabled: false
-  
+
 Rails/HttpPositionalArguments:
   Enabled: false
 
@@ -195,6 +194,9 @@ Rails/SkipsModelValidations:
   Enabled: false
 
 Rails/HelperInstanceVariable:
+  Enabled: false
+
+Rails/ContentTag:
   Enabled: false
 
 RSpec/BeEql:
@@ -221,7 +223,7 @@ RSpec/ExampleWording:
 RSpec/ExpectInHook:
   Enabled: false
 
-Rspec/FeatureMethods:
+RSpec/Capybara/FeatureMethods:
   Enabled: false
 
 RSpec/Focus:
