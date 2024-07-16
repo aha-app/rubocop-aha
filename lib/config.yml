@@ -10,7 +10,7 @@ AllCops:
     - db/**/*
     - tmp/**/*
     - vendor/**/*
-  TargetRubyVersion: 3.2
+  TargetRubyVersion: 3.3
   DisplayCopNames: true
 
 Rails:
@@ -133,6 +133,9 @@ Metrics/BlockLength:
 Metrics/ClassLength:
   Enabled: false
 
+Metrics/CollectionLiteralLength:
+  Enabled: false
+
 Metrics/CyclomaticComplexity:
   Enabled: false
 
@@ -202,6 +205,9 @@ Rails/HelperInstanceVariable:
 Rails/ContentTag:
   Enabled: false
 
+RSpec/BeEq:
+  Enabled: false
+
 RSpec/BeEql:
   Enabled: false
 
@@ -223,16 +229,19 @@ RSpec/ExampleLength:
 RSpec/ExampleWording:
   Enabled: false
 
-RSpec/ExpectInHook:
+RSpec/ExpectChange:
   Enabled: false
 
-RSpec/Capybara/FeatureMethods:
+RSpec/ExpectInHook:
   Enabled: false
 
 RSpec/Focus:
   Enabled: true
 
 RSpec/ImplicitSubject:
+  Enabled: false
+
+RSpec/IndexedLet:
   Enabled: false
 
 RSpec/LeadingSubject:
@@ -250,13 +259,22 @@ RSpec/MultipleMemoizedHelpers:
 RSpec/NestedGroups:
   Enabled: false
 
+RSpec/NoExpectationExample:
+  Enabled: false
+
 RSpec/NotToNot:
   EnforcedStyle: to_not
+
+RSpec/PendingWithoutReason:
+  Enabled: false
 
 RSpec/PredicateMatcher:
   Enabled: false
 
 RSpec/RepeatedExample:
+  Enabled: false
+
+RSpec/ReceiveMessages:
   Enabled: false
 
 RSpec/ScatteredLet:
