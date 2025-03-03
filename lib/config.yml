@@ -103,6 +103,9 @@ Layout/TrailingWhitespace:
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 
+Lint/DuplicateBranch:
+  Enabled: false
+
 Lint/MissingSuper:
   Enabled: false
 
@@ -205,6 +208,9 @@ Rails/HelperInstanceVariable:
 Rails/ContentTag:
   Enabled: false
 
+RSpec/AnyInstance:
+  Enabled: false
+
 RSpec/BeEq:
   Enabled: false
 
@@ -263,7 +269,7 @@ RSpec/NoExpectationExample:
   Enabled: false
 
 RSpec/NotToNot:
-  EnforcedStyle: to_not
+  Enabled: false
 
 RSpec/PendingWithoutReason:
   Enabled: false
@@ -284,6 +290,9 @@ RSpec/ScatteredSetup:
   Enabled: false
 
 RSpec/VerifiedDoubles:
+  Enabled: false
+
+Style/AmbiguousOperatorPrecedence:
   Enabled: false
 
 Style/AndOr:
