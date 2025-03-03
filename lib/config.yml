@@ -292,9 +292,6 @@ RSpec/ScatteredSetup:
 RSpec/VerifiedDoubles:
   Enabled: false
 
-Style/AmbiguousOperatorPrecedence:
-  Enabled: false
-
 Style/AndOr:
   EnforcedStyle: conditionals
 
