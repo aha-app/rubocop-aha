@@ -103,9 +103,6 @@ Layout/TrailingWhitespace:
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 
-Lint/AmbiguousOperatorPrecedence:
-  Enabled: false
-
 Lint/DuplicateBranch:
   Enabled: false
 
