@@ -98,7 +98,7 @@ Layout/SpaceInLambdaLiteral:
   EnforcedStyle: require_space
 
 Layout/TrailingWhitespace:
-  Enabled: false
+  Enabled: true
 
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
