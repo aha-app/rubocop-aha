@@ -164,7 +164,7 @@ Naming/MethodParameterName:
   MinNameLength: 2
   AllowedNames: _
 
-Naming/PredicateName:
+Naming/PredicatePrefix:
   Enabled: false
 
 Naming/VariableNumber:
